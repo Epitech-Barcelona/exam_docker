@@ -37,16 +37,6 @@ packages_list=(boost-devel.x86_64
 	       elfutils-libelf-devel.x86_64
 	       libjpeg-turbo-devel.x86_64
 	       libvorbis-devel.x86_64
-	       SDL-devel.x86_64
-	       SDL-static.x86_64
-	       SDL2-static.x86_64
-	       SDL2-devel.x86_64
-	       SDL2_ttf.x86_64
-	       SDL2_ttf-devel.x86_64
-	       SDL2_image.x86_64
-	       SDL2_image-devel.x86_64
-	       libcaca.x86_64
-	       libcaca-devel.x86_64
 	       libX11-devel.x86_64
 	       libXext-devel.x86_64
 	       ltrace.x86_64
@@ -81,9 +71,6 @@ packages_list=(boost-devel.x86_64
 	       zsh.x86_64
 	       avr-gcc.x86_64
 	       avr-gdb.x86_64
-	       qt-devel
-	       SDL2
-	       SDL2-devel
 	       docker
 	       docker-compose
 	       ncurses
@@ -101,8 +88,6 @@ packages_list=(boost-devel.x86_64
 	       net-tools
 	       autoconf
 	       automake
-	       ruby
-	       vim
 	       tcpdump
 	       wireshark
 	       nodejs
@@ -110,45 +95,19 @@ packages_list=(boost-devel.x86_64
 	       python3-virtualenv-api
 	       python2-virtualenv
 	       python3-virtualenv
-	       ocaml-SDL
-	       ocaml-SDL-devel
 	       qemu
 	       emacs-tuareg
 	       libvirt
 	       libvirt-devel
 	       virt-install
-	       haskell-platform
-	       golang
 	       systemd-devel
 	       libgudev-devel
-	       php.x86_64
-	       php-devel.x86_64
-	       php-bcmath.x86_64
-	       php-cli.x86_64
-	       php-devel.x86_64
-	       php-gd.x86_64
-	       php-mbstring.x86_64
-	       php-mysqlnd.x86_64
-	       php-pdo.x86_64
-	       php-pear.noarch
-	       php-json.x86_64
-	       php-pdo.x86_64
-	       php-xml.x86_64
-	       php-gettext-gettext.noarch
-	       php-phar-io-version.noarch
-	       php-theseer-tokenizer.noarch
-	       SFML
-	       SFML-devel
-	       irrlicht.x86_64
-	       irrlicht-devel.x86_64
 	       stack
 	       ghc
-	       rust
 	       cargo
                x264
                lightspark
-               lightspark-mozilla-plugin
-               mariadb-server)
+               lightspark-mozilla-plugin)
 
 dnf -y install ${packages_list[@]}
 
