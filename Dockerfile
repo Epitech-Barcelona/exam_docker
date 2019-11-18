@@ -7,6 +7,8 @@ ENV TERM xterm-256color
 
 RUN cd /tmp/scripts && ./install_packages_dump.sh
 
+RUN yum -y install man-db
+
 RUN useradd student
 
 RUN chown student.student /home/student
